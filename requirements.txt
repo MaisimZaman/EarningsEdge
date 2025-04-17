@@ -1,8 +1,27 @@
+# Core LLM stack
 langchain
 langchain-community
 langchain-openai
+openai
+
+# Embeddings
+sentence-transformers==2.2.2
+transformers==4.30.2
+
+# Vector DB
 chromadb
-python-dotenv
-unstructured
+
+# PDF parsing
+PyMuPDF
 pdfminer.six
-tiktoken
+
+# Optional: used by some loaders
+unstructured
+
+# Streamlit UI
+streamlit
+
+# Env management
+python-dotenv
+
+#
